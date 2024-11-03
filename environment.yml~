@@ -1,0 +1,10 @@
+name: abmbci
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.10
+  - pip:
+    - pybind11
+variables:
+  ABMSDK: "path/to/sdk"

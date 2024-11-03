@@ -1,0 +1,9 @@
+name: csc649
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python
+  - biopython
+  - bioconda::blast
+variables:
