@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>mouse_blast</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>VN1R3</BlastOutput_query-def>
+  <BlastOutput_query-len>311</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>VN1R3</Iteration_query-def>
+  <Iteration_query-len>311</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|17400</Hit_id>
+  <Hit_def>sp|Q8VIC7|V1R45_MOUSE Vomeronasal type-1 receptor 45 OS=Mus musculus OX=10090 GN=Vmn1r45 PE=2 SV=1</Hit_def>
+  <Hit_accession>17400</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.22265e-24</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>SQIMVGFLGN-FFLLYHYSFLCFTRG-MLQSTDLILKHLTIANSLVILSKGIPQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGY----CSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS--TLCYFTRSPPSLHMSLF-PNPSWWLLNTSALITACFPMVSPFVLMSRHPRI</Hsp_qseq>
+      <Hsp_hseq>SEIGIGILGNSFLLLFH--ILKFIRGHRLRLTDLPIGLLSLIHLLMLLLMAFIAT-DIFISRRGWDDIICKFLVYLYRVLRGLSLCTTSMLSVLQAIILSPRSSCLAKLK-HKYPHHISCAIIFLSVLYMLISSHILLSIIATPN----LTRNDFLYVTQSCSILPLSYVMQSMYSTLLALREVFLISLMVLSTLYMVVLLCRHRKQAQHLQGTSLSPKASAEQRATQTILMLMTFFVLMSIFDSIVSCSRTMFLDDPTSY--SIHIFVMHIYATVSPFVFMSTEKHI</Hsp_hseq>
+      <Hsp_midline>S+I +G LGN F LL+H   L F RG  L+ TDL +  L++ + L++L      T   F  +    DI CKF+ Y++RV R + +    +LSV Q I +SP     A+LK H + +  S  ++   +L  L++  +LL +    N       ND+ Y    CS    S +  S++  LL+  +V  + LM L++  MV +L RH++Q QH+ GT+LS ++S E R TQ+IL+L++   L     S  S   ++F  +P+ +  +    +   +  VSPFV MS    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12404</Hit_id>
+  <Hit_def>sp|Q8VBS7|V1R42_MOUSE Vomeronasal type-1 receptor 42 OS=Mus musculus OX=10090 GN=Vmn1r42 PE=3 SV=1</Hit_def>
+  <Hit_accession>12404</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>1.63397e-22</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>IGMILLSQIMVGFLGNFFLLYHYSFLCFTRGML-QSTDLILKHLTIANSLVILSKGIPQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGY----CSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVSTLCYFT--RSPPSLHMSLFPN-PSWWLLNTSALITACFPMVSPFVLMSRHPRI</Hsp_qseq>
+      <Hsp_hseq>IGKTFFSEIGIGISGNSFLLLVH-ILKFIRGHRPRLTDLPIGLLSLIHLLMLLVAAFIAT-DIFISRRGWDDIICKFLVYLYRVLRGFSLCTTSMLSILQAIILSPRSSCLAKFKHISPHHISGAILFLS-VLYMLIGSQLLVSIIATPN----LTMNDFIYVTQSCSILPLSYLMQSIYSTLLAIREFFLISLMVLSNWYMVALLSMHRKQTQHLHGTNLSPKKSPEQSATQTILMLISFFLLMTIYDTIVSCSRTMFLNDPTSY--SIELFIMHIYATVSPFVFMSTEKHI</Hsp_hseq>
+      <Hsp_midline>IG    S+I +G  GN FLL  +  L F RG   + TDL +  L++ + L++L      T   F  +    DI CKF+ Y++RV R   +    +LS+ Q I +SP     A+ K  +  +I   IL L  +L  L+   +L+ +    N       ND+ Y    CS    S +  S++  LL+  +   + LM L++  MV +L  H++Q QH+HGTNLS + SPE   TQ+IL+L+S     T   +  S   ++F N P+ +  +    I   +  VSPFV MS    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14762</Hit_id>
+  <Hit_def>sp|Q9EP93|V1R53_MOUSE Vomeronasal type-1 receptor 53 OS=Mus musculus OX=10090 GN=Vmn1r53 PE=2 SV=1</Hit_def>
+  <Hit_accession>14762</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>3.14686e-22</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>DFAIGMILLSQIMVGFLGNFFLLYHYSFLCFTRGMLQSTDLILKHLTIANSLVILSKGI--PQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGYCSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS-TLCYFTRSPPSLHMSLFPNPSWWLLNTSALITACFPMVSPFVLMSRHPRIPRLGSACCGR</Hsp_qseq>
+      <Hsp_hseq>DINLKITLFSEVSVGISANSILIFAHLCMLLGENRPKPIDLYIAFFSLTQLMLLITMGLIAVDMFMPWGRWDSTT---CQSLIYLHRLLRGLTLSATCLLNVLWTITLSPRSSCLTKFKHKSLQHISCAFLFLC-VLYMSFNSHLFISIIAYPNLTLENFMYVTQSCSLIPLSYFRKSMFSIPMAIREALLIGLMALSGGYMVAHLWRHKKQAQHLHRTSLSSKASPEQRATRTIMLLMSFFVVLYILDLVIFHSRMKFKDGSILYGVQIIVSHSYATVSPFVFICTEKRITNFLRSMCGR</Hsp_hseq>
+      <Hsp_midline>D  + + L S++ VG   N  L++ +  +       +  DL +   ++   +++++ G+        +G  DS +   C+ + Y+HR+ R + +   CLL+V   IT+SP      + K  + ++I    L LC +L    N  + + +    N            CS    S    S+  + ++  + L +GLM L+ G MV  L RHK+Q QH+H T+LS+++SPE R T++I++L+S  +  +       H  +       L     +++  +  VSPFV +    RI     + CGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15065</Hit_id>
+  <Hit_def>sp|Q8VIC6|V1R51_MOUSE Vomeronasal type-1 receptor 51 OS=Mus musculus OX=10090 GN=Vmn1r51 PE=2 SV=2</Hit_def>
+  <Hit_accession>15065</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.2457e-21</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>SDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGY----CSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVSTLCYFT--RSPPSLHMSLFPN-PSWWLLNTSALITACFPMVSPFVLMSRHPRI</Hsp_qseq>
+      <Hsp_hseq>DDIICKFLVYLYRVLRGLSLCTTSMLSVLQAIILSPRSSCLAKFKRKSLHHISCAILFLS-VLYMLIGSQLLVSIIATPN----LTTNDFIYVTQSCSILPLSYVMQSMFSTLLVIRDVFLISLMVLSTWYMVALLCRHRKKTQHLQGISLSPKTSPKQRATQTLLMLMSFFVLMTIYDTIVSCSRTMFLNDPTSY--NMQIFVVHIYATVSPFVFMSTEKHI</Hsp_hseq>
+      <Hsp_midline> DI CKF+ Y++RV R + +    +LSV Q I +SP     A+ K  +  +I   IL L  +L  L+   +L+ +    N      TND+ Y    CS    S +  S+   LL   DV  + LM L++  MV +L RH+++ QH+ G +LS ++SP+ R TQ++L+L+S     T   +  S   ++F N P+ +  N    +   +  VSPFV MS    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14461</Hit_id>
+  <Hit_def>sp|Q8R2E6|V1A11_MOUSE Vomeronasal type-1 receptor A11 OS=Mus musculus OX=10090 GN=V1ra11 PE=3 SV=1</Hit_def>
+  <Hit_accession>14461</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>1.03321e-20</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>SQIMVGFLGN-FFLLYHYSFLCFTRGML-QSTDLILKHLTIANSLVILSKGIPQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGY----CSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS--TLCYFTRSPPSLHMSLF-PNPSWWLLNTSALITACFPMVSPFVLMSRHPRI</Hsp_qseq>
+      <Hsp_hseq>SEIGIGISGNSFLLLFH--ILKFIRGHRPRLTDLPIGLLSLIHLLMLLLMAFIAT-DIFISRRGWDGIICKFLVYLYGVLRGLSLCTTSMLSVLQAIILSPRSSCLAKLKHKSPHHISCAIIFLS-VLYMLISSHILLSITATPN----LTMNDFLYVSQSCSLLPLSYLVQSMYSTLLALREVFLISLMVLSTLYMVVLLCRHRKQAQHLQGTSLSPKASAEQRATQTILMLMTFFVLMSIFDSIVSCSRTMFLDDPTSYSIHI--FVMHIYATVSPFVFMSTEKHI</Hsp_hseq>
+      <Hsp_midline>S+I +G  GN F LL+H   L F RG   + TDL +  L++ + L++L      T   F  +     I CKF+ Y++ V R + +    +LSV Q I +SP     A+LK  +  +I   I+ L  +L  L++  +LL +T   N       ND+ Y    CS    S +  S++  LL+  +V  + LM L++  MV +L RH++Q QH+ GT+LS ++S E R TQ+IL+L++   L     S  S   ++F  +P+ + ++    +   +  VSPFV MS    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13264</Hit_id>
+  <Hit_def>sp|Q9EQ47|V1R44_MOUSE Vomeronasal type-1 receptor 44 OS=Mus musculus OX=10090 GN=Vmn1r44 PE=2 SV=3</Hit_def>
+  <Hit_accession>13264</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>4.64483e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>DFAIGMILLSQIMVGFLGNFFLLYHYSFLCFTRGMLQSTDLILKHLTIANSLVILSKGI--PQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKY---IRSFILVLCWILNT-----LVNITVLLHVTGKWNSINSTKTNDYGYCSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS-TLCYFTRSPPSLHMSLFPNPSWWLLNTSALITACFPMVSPFVLMSRHPRIPRLGSACCGR</Hsp_qseq>
+      <Hsp_hseq>DTNIKITLLAEVSVGISANSILFIAYLCMLLGENRHKPIDLYIAFLSLTQLMLLITMGLIAVDMFMPWGRWDSTT---CQSLIYLHRFLRGLTLCATCLLNVLWTITLSSRNSCLAKFK---HKYPHHISGAFLFLCVLYMSFSSHFLVSMTVTPNLTSE-NFMYVTQS-----CSLLPMSYSRTSMFSTPVAIRETFLISLMALSSGYMVALLWRHKKQAQHLRSTSLSSKASPEQRATRTILLLMSFFVVFYILDTVIFHSRMKFKDGSILYCFQIIVSHSYVTVSPFVFICTEKHIIKFLRSMCGR</Hsp_hseq>
+      <Hsp_midline>D  I + LL+++ VG   N  L   Y  +       +  DL +  L++   +++++ G+        +G  DS +   C+ + Y+HR  R + +   CLL+V   IT+S      A+ K   HKY   I    L LC +  +     LV++TV  ++T + N +  T++     CS    S    S+    ++  +   + LM L+SG MV +L RHK+Q QH+  T+LS+++SPE R T++IL+L+S  + ++       H  +       L     +++  +  VSPFV +     I +   + CGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13993</Hit_id>
+  <Hit_def>sp|Q9EQ45|V1R46_MOUSE Vomeronasal type-1 receptor 46 OS=Mus musculus OX=10090 GN=Vmn1r46 PE=3 SV=1</Hit_def>
+  <Hit_accession>13993</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.43117e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>DFAIGMILLSQIMVGFLGNFFLLYHYSFLCFTRGMLQSTDLILKHLTIANSLVILSKGIPQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGYCSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVSTLCYFTRSPPSLHMS--LFPNPSWWLLNTSALITACFPMVSPFVLMSRHPRIPRLGSACCGR</Hsp_qseq>
+      <Hsp_hseq>DTNMKVILFSEVSVGISANSILFISHLCMFLGESRPKPIDLYIAFFSLTHLMLLVTMGLI-AVDMFMPGGRWDSTTCTFLMYLHIVLRGPTLCATCLLNVLWTITLSPRNSCLTKFKHKSPHHISGAFLFLCVLYMSLS--SELLSITASLNLTSENFLYVSQSCSILPMSYSIKSMFSTKMAIREAFLIGLMVLSSGYMVALLWSHKKQAQHLHSNSLSLKASPEQRATRTIMLLMSFFVVFYILDSVIFYSRMKFKDDSIFVC-VQIIVSHSYVTVSPFVFICTEKHIIKFFWSLCGR</Hsp_hseq>
+      <Hsp_midline>D  + +IL S++ VG   N  L   +  +       +  DL +   ++ + +++++ G+   +  F          C F+ Y+H V R   +   CLL+V   IT+SP      + K  +  +I    L LC +  +L   + LL +T   N  +         CS    S    S+    ++  +   +GLM L+SG MV +L  HK+Q QH+H  +LS ++SPE R T++I++L+S    F      +  S   F + S ++     +++  +  VSPFV +     I +   + CGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|15144</Hit_id>
+  <Hit_def>sp|Q9EQ46|V1R40_MOUSE Vomeronasal type-1 receptor 40 OS=Mus musculus OX=10090 GN=Vmn1r40 PE=3 SV=1</Hit_def>
+  <Hit_accession>15144</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.80833e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MASKDFAIGMILLSQIMVGFLGNFFLLYHYSFLCFTRGMLQSTDLILKHLTIANSLVILSKGI--PQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGYCSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS--TLCYFTRSPPSLHMSLFPNPSWWLLNTSALITACFPMVSPFVLMSRHPRIPRLGSACCGR</Hsp_qseq>
+      <Hsp_hseq>MLRTDKDMQIILFSEVSVGISANSILFIAHVCMILGENRPKPIDLYIAFLSLTQLMLLITMGLIAVDMFLSQGIWDSTT---CQSLIYLHRLLRGLSLCATCLLNILWTITLSSRSFCSTKFKHKSPHHISGAFIFFC-VLYMSFSSHLFISIIATHNLTSENFIYVTQSCSLLPLSYSRTSMFSAPMAIREAFLVSLMALSSGYMVALLWRHKKQAQHLHSTSLSSKASPEQRATRTILLLMSFFVVLYILENAVFYSRIKFKDGS-ILYCVQIILCHSYATVNPFVFICTEKHIIKFWESKCGR</Hsp_hseq>
+      <Hsp_midline>M   D  + +IL S++ VG   N  L   +  +       +  DL +  L++   +++++ G+       + G+ DS +   C+ + Y+HR+ R + +   CLL++   IT+S   F   + K  +  +I    +  C +L    +  + + +    N  +         CS    S    S+    ++  +   + LM L+SG MV +L RHK+Q QH+H T+LS+++SPE R T++IL+L+S   + Y   +        F + S  L     ++   +  V+PFV +     I +   + CGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|13994</Hit_id>
+  <Hit_def>sp|Q8VIC9|V1R43_MOUSE Vomeronasal type-1 receptor 43 OS=Mus musculus OX=10090 GN=Vmn1r43 PE=2 SV=1</Hit_def>
+  <Hit_accession>13994</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>4.26322e-19</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>IGMILLSQIMVGFLGN-FFLLYHYSFLCFTRGML-QSTDLILKHLTIANSLVILSKGIPQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGY----CSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS---TLCYFTRSPPSLHMSLFPNPSWWLLNTSALITACFPMVSPFVLMSRHPRI</Hsp_qseq>
+      <Hsp_hseq>IGNTFFSEIGIGITGNSFLLLYH--ILKFIRGHRPRLTDLPIGLLSLIHLLMLLVAAFIAT-DIFISRRGWDDIICKFLVYLYRVLRGLSLCTTSMLSVLQAIILSPRSSCLSKFKHISLHHILCAILFLS-VLYMLISSQLLVSIIATPN----LTTNDLTYVTQSCSILPLSYLVESINSTLLAIREYFLISLMFLSTWYIVALLCMHRKQTQHLQETRLSLKKSPEQSATQTILMLMTFFVLMTIYDNIVSCLRTMLLNDPTSY--SIELFMIHIYATVSPFVFMSNEKHI</Hsp_hseq>
+      <Hsp_midline>IG    S+I +G  GN F LLYH   L F RG   + TDL +  L++ + L++L      T   F  +    DI CKF+ Y++RV R + +    +LSV Q I +SP     ++ K  +  +I   IL L  +L  L++  +L+ +    N      TND  Y    CS    S +  S++  LL+  +   + LM L++  +V +L  H++Q QH+  T LS + SPE   TQ+IL+L++    +  +      L   L  +P+ +  +    +   +  VSPFV MS    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14463</Hit_id>
+  <Hit_def>sp|Q9EQ52|V1R48_MOUSE Vomeronasal type-1 receptor 48 OS=Mus musculus OX=10090 GN=Vmn1r48 PE=3 SV=1</Hit_def>
+  <Hit_accession>14463</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>5.37578e-19</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>SDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGY----CSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS--TLCYFTRSPPSLHMSLF-PNPSWWLLNTSALITACFPMVSPFVLMSRHPRI</Hsp_qseq>
+      <Hsp_hseq>NDIICKFLVYLYRSLRGLSLCTTSMLSVLQAIILSPRSYCLAKFKRKSSHNISCAIIFLS-VLYMSISSHLLISITATPN----LTMNDFLYVSQSCSLLPLSYLMQSIYSTLLVLREVFLIGLMVLSTSYMVALLYMHRKQAQNLQGTSLSLKASAEQRATQTILMLMTFFVLMSIFDSIVSCSRTMFLDDPTSYSIHI--FVMHIYATVSPFVFISTEKHI</Hsp_hseq>
+      <Hsp_midline>+DI CKF+ Y++R  R + +    +LSV Q I +SP  +  A+ K  +   I   I+ L  +L   ++  +L+ +T   N       ND+ Y    CS    S +  S++  LL   +V  +GLM L++  MV +L+ H++Q Q++ GT+LS ++S E R TQ+IL+L++   L     S  S   ++F  +P+ + ++    +   +  VSPFV +S    I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|16502</Hit_id>
+  <Hit_def>sp|Q9EQ51|V1R47_MOUSE Vomeronasal type-1 receptor 47 OS=Mus musculus OX=10090 GN=Vmn1r47 PE=2 SV=1</Hit_def>
+  <Hit_accession>16502</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>2.39671e-18</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>SDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGY----CSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS--TLCYFTRSPPSLHMSLFPNPSWWLLNTSALITACFPMVSPFVLMSRHPRIPRLGSACC</Hsp_qseq>
+      <Hsp_hseq>NDIICKFLVYLYRSLRGLSLCTTSMLSVLQAIILSPRSYCLAKFKRKSSHNISCAIIFLS-VLYMSISSHLFISITATLN----LTMNNFLYVSQSCSLLPLSYLMQSMYSTLLVLREVFLIGLMVLSTSYMVALLCMHRKQAQNLQGTSLSLKTAPEQRATQTILMLMTFFVLMSIFDSIVSSSRAMFLDDS-TCYSIYIFVMHIYATVSPFVFMSTEKHLVNFFRSMC</Hsp_hseq>
+      <Hsp_midline>+DI CKF+ Y++R  R + +    +LSV Q I +SP  +  A+ K  +   I   I+ L  +L   ++  + + +T   N       N++ Y    CS    S +  S++  LL   +V  +GLM L++  MV +L  H++Q Q++ GT+LS +++PE R TQ+IL+L++   L     S  S   ++F + S    +    +   +  VSPFV MS    +     + C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|14506</Hit_id>
+  <Hit_def>sp|Q9EQ44|V1R41_MOUSE Vomeronasal type-1 receptor 41 OS=Mus musculus OX=10090 GN=Vmn1r41 PE=3 SV=1</Hit_def>
+  <Hit_accession>14506</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>6.0768e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>DFAIGMILLSQIMVGFLGNFFLLYHYSFLCFTRGMLQSTDLILKHLTIANSLVILSKG--IPQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGY----CSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS-TLCYFTRSPPSLHMSLFPNPSWWLLNTSALITACFPMVSPFVLMSRHPRIPRLGSACCGR</Hsp_qseq>
+      <Hsp_hseq>DTNMKTFLFSEVSVGISANSMLFIVHICILLGENRPKPINLYIAFLSLTQLMLLITMGLIVADMFMSQGIWDS---ITCQSLIYLHRLLRGLTLCATCLLNVLWTITLSPRSSCLTKFKHKSPHHISGAFLFFCALYMSFSS-----HLFLSIIATPNLTSEDFMYVTQSCSLLSMSYSRTSMFSTAIAIREAFLISLFALCSGYMVALLWRHKKQAWDLHSTNVSSKSSPEQRATRTIMLLMSFFVVLYVLENAVFHSRMKFKDGSMLYCVQIIVSHSYATVSPFVLICTEKRMIKFWGSMFGR</Hsp_hseq>
+      <Hsp_midline>D  +   L S++ VG   N  L   +  +       +  +L +  L++   +++++ G  +     + G+ DS   I C+ + Y+HR+ R + +   CLL+V   IT+SP      + K  +  +I    L  C +  +  +     H+     +  +  + D+ Y    CS  S S    S+    ++  +   + L  L SG MV +L RHK+Q   +H TN+S++SSPE R T++I++L+S  +  +       H  +       L     +++  +  VSPFVL+    R+ +   +  GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|558</Hit_id>
+  <Hit_def>sp|Q9EP51|V1R50_MOUSE Vomeronasal type-1 receptor 50 OS=Mus musculus OX=10090 GN=Vmn1r50 PE=2 SV=1</Hit_def>
+  <Hit_accession>558</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.02007e-17</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>DFAIGMILLSQIMVGFLGNFFLLYHYSFLCFTRGMLQSTDLILKHLTIANSLVILSKGI--PQTMAAFGLKDSLSDIGCKFVFYVHRVGRAVCVGNACLLSVFQVITISPSEFRWAELKLHAHKYIRSFILVLCWILNTLVNITVLLHVTGKWNSINSTKTNDYGYCSGGSRSRIPHSLHIVLLSSLDVLCLGLMTLASGSMVFILHRHKQQVQHIHGTNLSARSSPESRVTQSILVLVS--TLCYFTRSPPSLHMSLFPNPSWWLLNTSALITACFPMVSPFVLMSRHPRIPRLGSACCGR</Hsp_qseq>
+      <Hsp_hseq>DNNMKITLFSEVSVGISANSILFVVHLCKLLHENKPKPIDLYIAFFSITQLMLLITMGLIAVDMFMPWGRWDSTT---CQSLIYLHRLLRGLTFCATCLLNVLWTITLSPRSSCLTKFKHKSPHHISGAFLFFC-VLYMSFSSHLLVSIIATFNSTSDNFLYVTQSCSILPVSYSRTSILSTMMTMREAFLIGLMALSSGYVVVLLWRHKKQARHLHSTSLSSKASPEQRATSTIMLLMGFFVVLYILDTVIFQARLKFKDVSTFFC-VKIIISHSYATFSPFVFICNDKYMIKFVTSMCGR</Hsp_hseq>
+      <Hsp_midline>D  + + L S++ VG   N  L   +          +  DL +   +I   +++++ G+        +G  DS +   C+ + Y+HR+ R +     CLL+V   IT+SP      + K  +  +I    L  C +L    +  +L+ +   +NS +         CS    S    S+   +++  +   +GLM L+SG +V +L RHK+Q +H+H T+LS+++SPE R T +I++L+    + Y   +        F + S +      +I+  +   SPFV +     + +  ++ CGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17489</Statistics_db-num>
+      <Statistics_db-len>9929044</Statistics_db-len>
+      <Statistics_hsp-len>98</Statistics_hsp-len>
+      <Statistics_eff-space>1749820986</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
